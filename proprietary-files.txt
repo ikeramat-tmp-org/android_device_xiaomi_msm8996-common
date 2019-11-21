@@ -449,10 +449,10 @@ vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libssd.so
 vendor/lib/libQSEEComAPI.so
 
-# DRM Widevine - from crosshatch - PQ3A.190801.002
-vendor/bin/hw/android.hardware.drm@1.1-service.widevine|06774deec920c1ad8cc39969ffe86bd91b6b5d29
-vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
-vendor/lib64/libwvhidl.so|e369af6eb915f83527e2caa5fd86927987a28b56
+# DRM Widevine - from LA.UM.8.6.r1-02600-89xx.0
+vendor/bin/hw/android.hardware.drm@1.2-service.widevine
+vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
+vendor/lib64/libwvhidl.so
 
 # Fingerprint
 lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.so|15fa15959d44bdf3760a3009d6a8b61a7f9e8830
