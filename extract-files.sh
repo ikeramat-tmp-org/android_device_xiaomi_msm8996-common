@@ -15,8 +15,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+if [ "${BASH_SOURCE[0]}" != "${0}" ]; then
+    return
+fi
 
 set -e
+
+# Required!
+export DEVICE=gemini
+export VENDOR=xiaomi
+
+export DEVICE_BRINGUP_YEAR=2016
 
 # Load extract_utils and do some sanity checks
 MY_DIR="${BASH_SOURCE%/*}"
@@ -87,7 +96,7 @@ if [ -z "${SRC}" ]; then
 fi
 
 # Initialize the helper for common device
-setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${LINEAGE_ROOT}" true "${CLEAN_VENDOR}"
+setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}" true "${CLEAN_VENDOR}"
 
 extract "${MY_DIR}/proprietary-files.txt" "${SRC}" \
         "${KANG}" --section "${SECTION}"
