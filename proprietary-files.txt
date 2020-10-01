@@ -886,11 +886,11 @@ vendor/lib64/libsensor1.so|f8524d62d2ad52849f4a13b018baf08d0eac8180
 vendor/lib64/libsensor_reg.so|8ca48358abf3f8f84f86036b02dbb210a5870742
 vendor/lib64/sensors.ssc.so
 
-# Thermal - from op3 - PKQ1.181203.001
-vendor/bin/thermal-engine|b15c9e8fa54ebb15dfeb36c7fbc834a28b4c836e
--vendor/lib64/libthermalclient.so|94424d7c8f8daff8bbfd7454fe4d5f1fbf411260
-vendor/lib64/libthermalioctl.so|aa2a0abd8fb9792024efd93f648c129b6a22619e
--vendor/lib/libthermalclient.so|270ea373c617584af092dc4ea2aa1c7bf27be7f4
+# Thermal - LA.UM.8.6.r1-01900-89xx.0
+vendor/bin/thermal-engine
+-vendor/lib64/libthermalclient.so
+vendor/lib64/libthermalioctl.so
+-vendor/lib/libthermalclient.so
 
 # Time services - from daisy - PKQ1.180917.001
 -vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um|78109530538aa8fb533ad288c9d356c57481a10e
