@@ -796,6 +796,11 @@ vendor/lib64/libqmi_csi.so
 vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmiservices.so
 
+# QMI - from LA.UM.8.6.r1-01900-89xx.0
+vendor/lib/libqmi_cci.so|5a48201e565516a2fdff11c228162d2eda733fe5
+vendor/lib64/libpdmapper.so
+vendor/lib64/libqmi_cci.so|d5c4f4ad1a484fd00066b8f054877fc7dae77f8b
+
 # QMI
 vendor/lib64/libqminvapi.so
 vendor/lib/libqminvapi.so
@@ -886,7 +891,7 @@ vendor/lib64/libsensor1.so|f8524d62d2ad52849f4a13b018baf08d0eac8180
 vendor/lib64/libsensor_reg.so|8ca48358abf3f8f84f86036b02dbb210a5870742
 vendor/lib64/sensors.ssc.so
 
-# Thermal - LA.UM.8.6.r1-01900-89xx.0
+# Thermal - from LA.UM.8.6.r1-01900-89xx.0
 vendor/bin/thermal-engine
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
