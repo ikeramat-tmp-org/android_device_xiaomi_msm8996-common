@@ -346,7 +346,7 @@ vendor/lib/libmmcamera_ov4688.so
 vendor/lib/libmmcamera_ov4688_primax.so
 vendor/lib/libSonyIMX298PdafLibrary.so
 
-# Charger
+# Charger - from LA.UM.7.5.r1-05300-8x96.0
 vendor/bin/hvdcp_opti
 
 # CNE - from LA.UM.8.6.r1-01900-89xx.0
