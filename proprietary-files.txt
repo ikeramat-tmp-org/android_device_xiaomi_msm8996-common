@@ -800,10 +800,10 @@ vendor/lib64/libqmi_csi.so
 vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmiservices.so
 
-# QMI - from LA.UM.8.6.r1-01900-89xx.0
-vendor/lib/libqmi_cci.so|5a48201e565516a2fdff11c228162d2eda733fe5
+# QMI - from LA.UM.8.6.r1-02600-89xx.0
+vendor/lib/libqmi_cci.so
 vendor/lib64/libpdmapper.so
-vendor/lib64/libqmi_cci.so|d5c4f4ad1a484fd00066b8f054877fc7dae77f8b
+vendor/lib64/libqmi_cci.so
 
 # QMI
 vendor/lib64/libqminvapi.so
