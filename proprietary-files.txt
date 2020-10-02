@@ -578,7 +578,7 @@ vendor/firmware/a530_zap.b02
 vendor/firmware/a530_zap.elf
 vendor/firmware/a530_zap.mdt
 
-# IMS - from LA.UM.8.6.r1-01900-89xx.0
+# IMS - from LA.UM.8.6.r1-02600-89xx.0
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml
 -product/priv-app/ims/ims.apk
 product/lib64/libimscamera_jni.so
