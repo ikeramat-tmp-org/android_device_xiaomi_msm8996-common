@@ -701,7 +701,7 @@ etc/permissions/org.simalliance.openmobileapi.xml
 framework/org.simalliance.openmobileapi.jar
 -priv-app/SmartcardService/SmartcardService.apk
 
-# Perf - from LA.UM.8.6.r1-01900-89xx.0
+# Perf - from LA.UM.8.6.r1-02600-89xx.0
 vendor/bin/energy-awareness
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
