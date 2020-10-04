@@ -59,6 +59,8 @@ BOARD_RAMDISK_OFFSET := 0x01000000
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/xiaomi/gemini
 TARGET_KERNEL_CONFIG := gemini_defconfig
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_VERSION := latest
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8996
@@ -153,6 +155,9 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(DEVICE_PATH)/vendor_framework_co
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/compatibility_matrix.xml
+
+# Keydisabler
+JAVA_SOURCE_OVERLAYS := org.custom.hardware|$(VENDOR_PATH)/keydisabler|**/*.java
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
