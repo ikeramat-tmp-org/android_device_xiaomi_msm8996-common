@@ -1,3 +1,2 @@
 allow init adsprpcd_file:filesystem { mount relabelfrom relabelto };
 allow init debugfs:file write;
-allow init sysfs_batteryinfo:file setattr;
